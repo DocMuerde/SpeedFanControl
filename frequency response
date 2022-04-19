@@ -22,8 +22,8 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly
-   float frec=2;  //rad/s =2*pi*frec =Hz T=1/(2*pi*frec)
+  // Change the value of frec to obtain a different value of the Bode diagram
+   float frec=2;  //rad/s =2*pi*frec =Hz T=1/(2*pi*frec)  
    int y=125.0+50*sin((millis()*frec/1000.0));
   
 
