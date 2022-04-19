@@ -20,9 +20,8 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly
- 
-  int y=125+ (50*((millis()/5000)%2));
+  // Y change from 125 to 175 each 5 seconds
+  int y=125+ (50*((millis()/5000)%2));  
   analogWrite(3,y);
     if(flag==1)
       {
